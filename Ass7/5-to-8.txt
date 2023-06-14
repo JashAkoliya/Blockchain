@@ -7,6 +7,3 @@ text in a string?
 
 7. How can you break a string to a newline in Javascript ?
 -> \n
-
-8. Write a Javascript function to test whether the first character of a string
-is lowercase.
