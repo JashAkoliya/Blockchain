@@ -3,7 +3,6 @@
 
 function check(s){
     let r = s[0];
-
     if(r[0]===r.toLowerCase()){
         console.log(true); 
     }
@@ -11,5 +10,4 @@ function check(s){
         console.log(false);
     }
 }
-
 check("Jash");
