@@ -1,0 +1,12 @@
+1. Can we put duplicate values in the set object ?
+-> No we cannot put duplicate values in the set object.
+
+2. Write the syntax for
+    a) Creating new set object
+    -> let value = new Set();
+
+    b) Adding new element to set object
+    -> value.add(data);
+
+    c) Deleting element from set object
+    -> value.delete(data);
