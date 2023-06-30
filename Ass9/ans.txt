@@ -1,0 +1,18 @@
+1. Carefully observe this example.
+    a) Is the InnerFunction() a closure?
+    -> yes the inner function is closue because the InnerFunction use the variable of the OuterFunction.
+
+    b) What is output of this program
+    -> 100
+2. What is the difference between a closure and a scope ?
+-> closure:- In closure the inner function is using the functionality of the outer function.
+   scope:- Scope determine the accessibility of the variable,objects and functions from the different part of the code.
+
+3. What is a lexical scope and how is it related to closure?
+-> lexical scope is the ability of the function sccope the access the variable from the parent scope.
+
+4. Output of following closure ?
+->  3
+    3
+    3
+
