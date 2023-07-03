@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOOP</title>
+    <h1>DOM-CLASS</h1>
+</head>
+<body>
+    <script type="text/javascript">
+        let car={
+            name:"toyota",
+            model:"hyrider",
+            model_year:2023,
+            // electric:function(){
+            //     return "this is not electric car";
+            // }
+        };
+        // document.write(car.electric());
+        for(const i in car){
+            document.write(`${i}`+":"+`${car[i]}`+"</br>");
+        }
+    </script>
+</body>
+</html>

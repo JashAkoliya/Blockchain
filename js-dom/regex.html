@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression</title>
+    <h1>Regex in dom</h1>
+</head>
+<body>
+    <p id="regex">Home</p>
+    <script>
+        let text = "Welcome to siddeshwar homes"
+        let n = text.search("siddeshwar");
+        document.getElementById("regex").innerHTML=n;
+
+        function replaceText(){
+            let text = "welcome to my home";
+            let s = text.replace("my","siddeshwar");
+            document.getElementById("text").innerHTML=s;
+        }
+    </script>
+    <button onclick="replaceText()">Click for replace</button>
+    <p id="text">welcome to my home</p>
+</body>
+</html>

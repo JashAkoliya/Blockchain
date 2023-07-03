@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio-button</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function rad(){
+            let rad1 = document.getElementById("rad1");
+            let rad2 = document.getElementById("rad2");
+            let rad3 = document.getElementById("rad3");
+            let rad4 = document.getElementById("rad4");
+            if(rad1.checked==true){
+                window.alert(rad1.value);
+            }
+            else if(rad2.checked==true){
+                window.alert(rad2.value);
+            }
+            else if(rad3.checked==true){
+                window.alert(rad3.value);
+            }
+            else if(rad4.checked==true){
+                window.alert(rad4.value);
+            }
+            else{
+                window.alert("please check something");
+            }
+
+            // else{
+            //     window.alert("please do selection");
+            // }
+            // for(let i=0;i<n.length;i++){
+            //     if(n[i].checked){
+            //         window.alert(n[i].value);
+            //     }
+            // }
+        }
+    </script>
+
+    <input id="rad1" type="radio" name="ra1" value="jash">Blockhain</input>
+    <input id="rad2" type="radio" name="ra1" value="Solidity">Solidity</input>
+    <input id="rad3" type="radio" name="ra1" value="Hyperledger">Hyperledger</input>
+    <input id="rad4" type="radio" name="ra1" value="Ploygon">Ploygon</input>
+
+    </br>
+    <button onclick="rad()" type="submit" id="btn">Submit</button>
+</body>
+</html>

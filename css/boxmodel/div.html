@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 200px;
+            border: 3px solid black;
+            background-color: orange;
+            margin: 10px;
+            padding: 35px;
+            padding-left: 50px;
+            margin-left: 40px;
+            margin-bottom: 50px;
+            box-sizing: border-box; 
+        }
+        #org{
+            background-color: #ffaa00;
+        }
+        #wht{
+            background-color: magenta;
+        }
+        #grn{
+            background-color: rgb(00, 200, 00);
+        }
+        #divParent{
+            width: 500px;
+            height: 200px;
+            border: 2px solid black;
+            font-size: 20px;
+            background-color: aliceblue;
+        }
+        #divChild{
+            width: 50%;
+            height: 50%;
+            border: 2px solid black;
+            font-size: 2em;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="org">Jash</div>
+    <div class="box" id="wht">Jay</div>
+    <div class="box" id="grn">Raj</div>
+    <div id="divParent"> Hello
+        <div id="divChild">Jash</div>
+    </div>
+</body>
+</html>

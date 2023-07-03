@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form input</title>
+    <h2>take input from user in html form</h2>
+</head>
+<body>
+    <script type="text/javascript">
+        function subData(){
+            let n = document.getElementById("iName").value;
+            window.alert("You have successfully login "+n);
+        }
+    </script>
+    Name:-
+    <input placeholder="enter name" type="text" id="iName">
+    <br>
+    Password:-
+    <input type="password" placeholder="enter password" id=""iPass>
+    <br>
+    <button onclick="subData()">submit</button>
+</body>
+</html>

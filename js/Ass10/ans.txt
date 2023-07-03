@@ -1,0 +1,33 @@
+1. Are Higher Order functions and Call back functions the same ? If not,
+briefly explain about both functions.
+-> No callback function and high order function is not same.
+   ->Callback function:- A callback function is a function passed into another function as an argument.
+   ->Highorder function:- High order function is a function that take one or more function as argument and return function as the result.
+
+2. Is filter a Higher Order function in Javascript ? If yes, why ?
+-> Yes filter is highorder function. filter function take one or more function as argument or return function as the result.
+   The filter function takes callback function as an argument and applies that function to each element of an array, returning a new array that contain only the elements for which the callback function return true.
+
+3. Give an example of a Higher Order function and a call back function
+used in the same program.
+-> 
+    function callBack(){
+        console.log("I am callback function");
+    }
+    function highOrder(func){
+        console.log("I am high order function");
+        func();
+    }
+    highOrder(callBack);
+
+4. Carefully check the example below:
+    a) What will be the output of this program ?
+    -> Error:- I is indefined
+       Otherwise Output:-
+       //Hello John
+       //Hello Tina
+       //Hello Kale
+       //Hello Max
+
+    b) Which function is a Higher Order function here ?
+    -> useFunction(arr,fn) is a Highorder function.

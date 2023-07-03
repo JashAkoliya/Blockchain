@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Box</title>
+    <h1>Check-Box</h1>
+</head>
+<body>
+    <script type="text/javascript">
+        function check(){
+            let n = document.getElementById("sb1");
+            window.alert(n.value);
+            window.alert(n.options[n.selectedIndex].value);
+            window.alert(n.options[1].value);// it will set default value
+            
+        }
+    </script>
+
+    <select id="sb1">
+        <option value="Blockchain">Blockchain</option>
+        <option value="Hyperledge">Hyperledge</option>
+        <option value="Polygon">Polygon</option>
+        <option value="Solidity">Solidity</option>
+    </select>
+    <button type="submit" onclick="check()">Submit</button>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <h1>DOM-CLASS</h1>
+</head>
+<body>
+    <script type="text/javascript">
+        function Clickbutton(){
+            //document represent the global dom object
+            let s = document.getElementById("heading").innerHTML="Hello Blockchain"; // it will change the inner data of thid id
+            window.alert(s);
+        }
+
+        function ClickButtonPara(){
+            let s = document.getElementById("para").innerHTML="Hello Paragraph";
+        }
+    </script>
+    <button onclick="Clickbutton()">Click Me</button>
+    <h2 id="heading">Display</h2>
+    <button onclick="ClickButtonPara()">Click for Para</button>
+    <h3><p id="para">Hello Jash</p></h3>
+</body>
+</html>
