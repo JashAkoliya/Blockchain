@@ -1,0 +1,23 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(to bottom right,white,yellow,green);
+    background-image: linear-gradient(45deg,white,yellow);
+}
+
+.mydiv{
+    border: 1px solid black;
+    margin:10px;
+    height:200px;
+    width:150px;
+    background-image: radial-gradient(circle,red,blue,orange);
+    background-image: radial-gradient(yellow 5%,orange 10%,green 50%);
+}
+
+.mydiv2{
+    border:1px solid black;
+    height:200px;
+    width: 150px;
+    background-image: conic-gradient(red,blue,white);
+}
