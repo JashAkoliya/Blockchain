@@ -7,8 +7,6 @@
 // console.log(typeof a);
 // console.log(a===b);
 
-
-
 let age = Symbol("age");
 let user = {
     name:"jash",
